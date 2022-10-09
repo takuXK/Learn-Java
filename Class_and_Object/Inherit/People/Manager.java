@@ -13,7 +13,15 @@ public class Manager extends Person {
         this.salary = salary;
     }
 
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
     public void PrintInfo(Manager this) {
-        System.out.println(this.getAge());
+        System.out.println(this.getSalary());
     }
 }
